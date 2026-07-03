@@ -1,0 +1,15 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Huelli PostgreSQL",
+      "Group": "Huelli",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "postgres",
+      "Username": "huelli",
+      "SSLMode": "prefer",
+      "Shared": true,
+      "PassFile": "/pgadmin4/pgpass"
+    }
+  }
+}
