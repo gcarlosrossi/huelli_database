@@ -1,0 +1,54 @@
+# ==========================
+# Environment
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# PostgreSQL
+# ==========================
+postgres/data/
+postgres/*.pid
+postgres/*.log
+
+# Si tu volumen está en la raíz
+data/
+
+# ==========================
+# pgAdmin
+# ==========================
+pgadmin/data/
+pgadmin/storage/
+pgadmin/sessions/
+pgadmin/*.db
+
+# Configuración local (opcional)
+pgadmin/pgpass
+pgadmin/servers.json
+
+# ==========================
+# Docker
+# ==========================
+*.pid
+*.log
+docker-compose.override.yml
+
+# ==========================
+# IDEs
+# ==========================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================
+# OS
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Git
+# ==========================
+*.orig
